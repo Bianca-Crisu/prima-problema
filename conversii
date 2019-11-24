@@ -1,0 +1,27 @@
+#include <stdio.h>
+#define A 47.389
+#define X -123.5e20
+
+int main(void)
+{  
+   printf("caracterul A=%c\n",'A');
+   printf("A=%f\n",A);
+   printf("A=%.2f\n",A);
+   printf("X=%e\n",X);
+   printf("X=%.2e\n",X);
+   printf("X=%.1e\n",X);
+   
+   
+   printf("%20f%20e%10g\n",1.25,1.25,1.25);
+   printf("%20f%20e%10g\n",123e-3,123e-3,123e-3);
+   printf("%20f%20e%10g\n",12.3e4,12.3e4,12.3e4);
+   
+   
+   
+   printf("%.14g\n",1.0);
+ 
+ 
+ 
+ 
+ return 0;
+}
